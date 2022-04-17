@@ -6,7 +6,7 @@ import PackageDescription
 let rswiftRepository = "https://github.com/quentinfasquel/R.swift"
 
 let package = Package(
-    name: "R.swift-Plugin",
+    name: "R.swift.Plugin",
     platforms: [.iOS(.v11)],
     products: [
         .plugin(name: "RswiftPlugin", targets: ["RswiftPlugin"])
