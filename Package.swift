@@ -18,7 +18,7 @@ let package = Package(
             dependencies: ["rswift"]),
         .binaryTarget(
             name: "rswift",
-            url: "\(rswiftRepository)/releases/download/5.4.0-spm/rswift.artifactbundle.zip",
-            checksum: "0c2b7f766076b398eddc9b61d2d040e2806f3105894a48b4328a506f81d081bc")
+            url: "\(rswiftRepository)/releases/download/6.0.0-spm/rswift.artifactbundle.zip",
+            checksum: "357e8982f00e17a8d40027a40c1e01cfd90d5345ce0e30ae16fe78cba49704a7")
     ]
 )
